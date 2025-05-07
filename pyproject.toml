@@ -1,0 +1,15 @@
+[project]
+name = "orpheus-tts"
+description = "This project adds high-quality Text-to-Speech capabilities to ComfyUI using the Orpheus TTS model. Create natural-sounding voices with emotional expressions, multilingual support, and audio effects."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["torch", "numpy", "soundfile", "transformers", "huggingface_hub", "nltk>=3.8.0", "snac==0.1.0", "librosa>=0.10.2"]
+
+[project.urls]
+Repository = "https://github.com/ShmuelRonen/ComfyUI-Orpheus-TTS"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-Orpheus-TTS"
+Icon = ""
